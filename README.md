@@ -2,7 +2,7 @@
 
 This React Real State Project is a web application developed using modern web technologies, including React, Vite, Sass, and CSS. It also integrates React Icons to enhance the visual elements of the user interface.
 
-<img src="demo.png" alt="Website demo" title="Real State"  />
+<img src="./public/demo.png" alt="Website demo" title="Real State"  />
 
 ## Technologies Used
 
