@@ -8,7 +8,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { FaChevronRight } from "react-icons/fa6";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import logo from "../../../public/ag-nav.png";
+import logo from "../../assets/ag-nav.png";
 
 const Footer = () => {
   //scroll animation
@@ -38,9 +38,10 @@ const Footer = () => {
 
             <div className="footerParagraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              atque, distinctio aliquid repellendus illo necessitatibus?
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, modi!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, accusantium?
+              atque, distinctio aliquid repellendus illo necessitatibus? Lorem
+              ipsum dolor sit amet consectetur, adipisicing elit. Porro, modi!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae, accusantium?
             </div>
 
             <div className="footerSocials flex">
@@ -59,13 +60,13 @@ const Footer = () => {
             >
               <span className="groupTitle">OUR AGENCY</span>
 
-              <CustomLink to="/about">Home</CustomLink>
-              <CustomLink to="/about">Packages</CustomLink>
-              <CustomLink to="/about">Shop</CustomLink>
-              <CustomLink to="/about">About</CustomLink>
-              <CustomLink to="/about">Pages</CustomLink>
-              <CustomLink to="/about">News</CustomLink>
-              <CustomLink to="/about">Contact</CustomLink>
+              <CustomLink to="/">Home</CustomLink>
+              <CustomLink to="/">Packages</CustomLink>
+              <CustomLink to="/">Shop</CustomLink>
+              <CustomLink to="/">About</CustomLink>
+              <CustomLink to="/">Pages</CustomLink>
+              <CustomLink to="/news">News</CustomLink>
+              <CustomLink to="/contact">Contact</CustomLink>
             </div>
             <div
               className="linkGroup"
@@ -74,13 +75,13 @@ const Footer = () => {
             >
               <span className="groupTitle">OUR AGENCY</span>
 
-              <CustomLink to="/about">Home</CustomLink>
-              <CustomLink to="/about">Packages</CustomLink>
-              <CustomLink to="/about">Shop</CustomLink>
-              <CustomLink to="/about">About</CustomLink>
-              <CustomLink to="/about">Pages</CustomLink>
-              <CustomLink to="/about">News</CustomLink>
-              <CustomLink to="/about">Contact</CustomLink>
+              <CustomLink to="/">Home</CustomLink>
+              <CustomLink to="/">Packages</CustomLink>
+              <CustomLink to="/">Shop</CustomLink>
+              <CustomLink to="/">About</CustomLink>
+              <CustomLink to="/">Pages</CustomLink>
+              <CustomLink to="/news">News</CustomLink>
+              <CustomLink to="/contact">Contact</CustomLink>
             </div>
             <div
               className="linkGroup"
@@ -89,13 +90,13 @@ const Footer = () => {
             >
               <span className="groupTitle">OUR AGENCY</span>
 
-              <CustomLink to="/about">Home</CustomLink>
-              <CustomLink to="/about">Packages</CustomLink>
-              <CustomLink to="/about">Shop</CustomLink>
-              <CustomLink to="/about">About</CustomLink>
-              <CustomLink to="/about">Pages</CustomLink>
-              <CustomLink to="/about">News</CustomLink>
-              <CustomLink to="/about">Contact</CustomLink>
+              <CustomLink to="/">Home</CustomLink>
+              <CustomLink to="/">Packages</CustomLink>
+              <CustomLink to="/">Shop</CustomLink>
+              <CustomLink to="/">About</CustomLink>
+              <CustomLink to="/">Pages</CustomLink>
+              <CustomLink to="/news">News</CustomLink>
+              <CustomLink to="/contact">Contact</CustomLink>
             </div>
           </div>
         </div>
@@ -108,7 +109,9 @@ function CustomLink({ to, children, ...props }) {
   return (
     <li className="footerList flex">
       <FaChevronRight className="icon" />
-      {children}
+      <a href={to} className="navLink">
+        {children}
+      </a>
     </li>
   );
 }

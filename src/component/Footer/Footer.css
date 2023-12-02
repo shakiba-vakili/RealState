@@ -136,11 +136,17 @@
   color: var(--greyText);
   margin-right: 2px;
 }
+.footer .secContent .footerCard .footerLinks .linkGroup .footerList .navLink {
+  color: var(--textColor);
+  padding: 0 0.45rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
 .footer .secContent .footerCard .footerLinks .linkGroup .footerList:hover {
   color: var(--primaryColor);
   transform: translateX(7px);
 }
-.footer .secContent .footerCard .footerLinks .linkGroup .footerList:hover .icon {
+.footer .secContent .footerCard .footerLinks .linkGroup .footerList:hover .icon, .footer .secContent .footerCard .footerLinks .linkGroup .footerList:hover .navLink {
   color: var(--secondaryColor);
 }
 

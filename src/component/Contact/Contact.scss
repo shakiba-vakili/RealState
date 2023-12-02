@@ -1,0 +1,100 @@
+:root {
+  --main-color-1: #f6f6f7;
+  --main-color-2: #608296;
+  --main-color-3: #a97c50;
+  --primaryColor: #0073a8;
+  --secondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: #e1e1eb;
+}
+
+.contact.container {
+  padding-top: 15rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  .right {
+    width: 50%;
+    position: relative;
+    .img {
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .secContent {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translateX(-50%);
+      .contactDiv {
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 1rem;
+
+        .text {
+          font-size: 15px;
+          font-weight: 500;
+          color: var(--whiteColor);
+        }
+
+        h2 {
+          color: var(--whiteColor);
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+  .left.form {
+    flex-grow: 2;
+    max-width: 400px;
+    margin: 0 auto;
+    color: var(--textColor);
+
+    .div-input {
+      margin-bottom: 15px;
+
+      .label-input {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      .content-input {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        border-color: var(--secondaryColor);
+        background-color: transparent;
+
+        &:focus,
+        &:active {
+          border-color: var(--primaryColor);
+        }
+      }
+    }
+
+    .btn {
+      color: var(--whiteColor);
+    }
+  }
+}
+// MEDIA QUERIES ***************************************************
+
+@media screen and (max-width: 940px) {
+  .right {
+    display: none !important;
+  }
+}
