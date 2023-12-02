@@ -27,12 +27,8 @@ const Navbar = () => {
           <div className={active}>
             <ul className="navLists flex">
               <CustomLink to="/">Home</CustomLink>
-              <CustomLink to="/about">Packages</CustomLink>
-              <CustomLink to="/about">Shop</CustomLink>
-              <CustomLink to="/about">About</CustomLink>
-              <CustomLink to="/about">Pages</CustomLink>
               <CustomLink to="/news">News</CustomLink>
-              <CustomLink to="/about">Contact</CustomLink>
+              <CustomLink to="/contact">Contact</CustomLink>
               <button className="btn">
                 <a href="3">BOOK NOW</a>
               </button>
