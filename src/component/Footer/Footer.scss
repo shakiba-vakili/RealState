@@ -150,14 +150,21 @@
               margin-right: 2px;
             }
 
+            .navLink {
+              color: var(--textColor) ;
+              padding: 0 0.45rem;
+              font-size: 0.9rem;
+              font-weight: 500;
+
+            }
             &:hover {
               color: var(--primaryColor);
               transform: translateX(7px);
 
-              .icon {
+              .icon,.navLink {
                 color: var(--secondaryColor);
               }
-            }
+              }
           }
         }
       }
@@ -216,7 +223,8 @@
         .footerIntro {
           .footerParagraph {
             margin: 0;
-          }        }
+          }
+        }
         .footerLinks {
           grid-template-columns: repeat(3, 1fr);
           padding-bottom: 1rem;

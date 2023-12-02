@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import "./News.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
 // get data from backend in future
 //   const [news, setNews] = useState([]);
 

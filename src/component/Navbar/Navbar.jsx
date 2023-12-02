@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { IoMdCloseCircle } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
-import logo from "../../../public/ag-nav.png";
+import logo from "../../assets/ag-nav.png";
 
 // import { Link, useMatch, useResolvedPath } from "react-router-dom";
 const Navbar = () => {
