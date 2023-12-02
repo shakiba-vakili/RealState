@@ -79,7 +79,7 @@ const News = () => {
   return (
       <section className="news container section">
         <div className="secTitle">
-          <h3 data-aos="fade-right" className="title">
+          <h3 data-aos="fade-right" className="title-n">
             News
           </h3>
         </div>

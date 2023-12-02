@@ -23,7 +23,7 @@
   padding-top: 12rem;
   width: 100%;
 }
-.news.container .secTitle .title {
+.news.container .secTitle .title-n {
   position: relative;
   width: -moz-max-content;
   width: max-content;
@@ -32,7 +32,7 @@
   z-index: 2;
   font-size: 25px;
 }
-.news.container .secTitle .title::after {
+.news.container .secTitle .title-n::after {
   position: absolute;
   content: "";
   background: var(--secondaryColor);
@@ -91,10 +91,10 @@
 }
 
 @media screen and (min-width: 500px) {
-  .title {
+  .title-n {
     font-size: 1.5rem;
   }
-  .title::after {
+  .title-n::after {
     width: 70px !important;
   }
   .newsArticle .card {
