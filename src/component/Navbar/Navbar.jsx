@@ -19,19 +19,19 @@ const Navbar = () => {
       <section className="navBarSection">
         <header className=" header flex">
           <div className="logoDiv">
-            <a href="#" className="logo">
+            <a href="/" className="logo">
               <img src={logo} alt="logo" />{" "}
             </a>
           </div>
 
           <div className={active}>
             <ul className="navLists flex">
-              <CustomLink to="/about">Home</CustomLink>
+              <CustomLink to="/">Home</CustomLink>
               <CustomLink to="/about">Packages</CustomLink>
               <CustomLink to="/about">Shop</CustomLink>
               <CustomLink to="/about">About</CustomLink>
               <CustomLink to="/about">Pages</CustomLink>
-              <CustomLink to="/about">News</CustomLink>
+              <CustomLink to="/news">News</CustomLink>
               <CustomLink to="/about">Contact</CustomLink>
               <button className="btn">
                 <a href="3">BOOK NOW</a>
