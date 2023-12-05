@@ -9,6 +9,7 @@ import { FaChevronRight } from "react-icons/fa6";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import logo from "../../assets/ag-nav.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   //scroll animation
@@ -109,9 +110,9 @@ function CustomLink({ to, children, ...props }) {
   return (
     <li className="footerList flex">
       <FaChevronRight className="icon" />
-      <a href={to} className="navLink">
+      <Link to={to} className="navLink">
         {children}
-      </a>
+      </Link>
     </li>
   );
 }

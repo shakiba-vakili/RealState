@@ -3,6 +3,7 @@ import "./Navbar.css";
 import { IoMdCloseCircle } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 import logo from "../../assets/ag-nav.png";
+import { Link } from "react-router-dom";
 
 // import { Link, useMatch, useResolvedPath } from "react-router-dom";
 const Navbar = () => {
@@ -63,9 +64,9 @@ const Navbar = () => {
 function CustomLink({ to, children, ...props }) {
   return (
     <li className="navItem">
-      <a href={to} className="navLink">
+      <Link to={to} className="navLink">
         {children}
-      </a>
+      </Link>
     </li>
   );
 }
