@@ -6,6 +6,7 @@ import Navbar from "./component/Navbar/Navbar";
 import Footer from "./component/Footer/Footer";
 import News from "./component/News/News";
 import Contact from "./component/Contact/Contact";
+import PrivacyPolicy from './component/PrivacyPolicy/PrivacyPolicy'
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<PageMain />} />
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
       </Routes>
       <Footer />
     </>

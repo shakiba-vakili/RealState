@@ -64,8 +64,6 @@ const Footer = () => {
               <CustomLink to="/">Home</CustomLink>
               <CustomLink to="/">Packages</CustomLink>
               <CustomLink to="/">Shop</CustomLink>
-              <CustomLink to="/">About</CustomLink>
-              <CustomLink to="/">Pages</CustomLink>
               <CustomLink to="/news">News</CustomLink>
               <CustomLink to="/contact">Contact</CustomLink>
             </div>
@@ -74,31 +72,28 @@ const Footer = () => {
               data-aos="fade-up"
               data-aos-duration="4000"
             >
-              <span className="groupTitle">OUR AGENCY</span>
+              <span className="groupTitle">OUR PRIVEACY</span>
 
               <CustomLink to="/">Home</CustomLink>
               <CustomLink to="/">Packages</CustomLink>
               <CustomLink to="/">Shop</CustomLink>
               <CustomLink to="/">About</CustomLink>
-              <CustomLink to="/">Pages</CustomLink>
-              <CustomLink to="/news">News</CustomLink>
-              <CustomLink to="/contact">Contact</CustomLink>
+              <CustomLink to="/privacyPolicy">Privacy Policy</CustomLink>
             </div>
-            <div
+            {/* <div
               className="linkGroup"
               data-aos="fade-up"
               data-aos-duration="5000"
             >
-              <span className="groupTitle">OUR AGENCY</span>
+              <span className="groupTitle">OUR PRIVEACY</span> 
 
               <CustomLink to="/">Home</CustomLink>
               <CustomLink to="/">Packages</CustomLink>
               <CustomLink to="/">Shop</CustomLink>
               <CustomLink to="/">About</CustomLink>
-              <CustomLink to="/">Pages</CustomLink>
-              <CustomLink to="/news">News</CustomLink>
-              <CustomLink to="/contact">Contact</CustomLink>
-            </div>
+              <CustomLink to="/privacyPolicy">Privacy Policy</CustomLink>
+
+            </div> */}
           </div>
         </div>
       </div>

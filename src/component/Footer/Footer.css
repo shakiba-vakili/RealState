@@ -155,7 +155,7 @@
     align-items: center;
   }
   .footer .secContent .footerCard .footerLinks {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-bottom: 1rem;
   }
   .footer .secContent .footerCard .footerDiv {
@@ -187,7 +187,7 @@
     margin: 0;
   }
   .footer .secContent .footerCard .footerLinks {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-bottom: 1rem;
   }
 }

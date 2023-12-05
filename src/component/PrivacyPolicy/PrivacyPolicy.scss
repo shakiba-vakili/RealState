@@ -1,0 +1,59 @@
+:root {
+  --main-color-1: #f6f6f7;
+  --main-color-2: #608296;
+  --main-color-3: #a97c50;
+  --primaryColor: #0073a8;
+  --secondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: #e1e1eb;
+}
+
+.privacyPolicy.container {
+  padding-top: 15rem;
+  width: 100%;
+  .secTitle {
+    .title-pp {
+      position: relative;
+      width: max-content;
+      color: var(--textColor);
+      margin: 1rem 0;
+      z-index: 2;
+      font-size: 25px;
+      &::after {
+        position: absolute;
+        content: "";
+        background: var(--secondaryColor);
+        height: 5px;
+        width: 180px;
+        right: 0;
+        bottom: 5px;
+        z-index: -1;
+      }
+    }
+  }
+  .text {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    & > * {
+      line-height: 1.8rem;
+      letter-spacing: 0.03rem;
+      font-size: 1.1rem;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      padding: 1.5rem;
+      border-radius: 1rem;
+    }
+  }
+}
