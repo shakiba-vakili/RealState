@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import "./index.css";
 import PageMain from "./component/Pages/PageMain";
 import { Route, Routes } from "react-router-dom";
@@ -8,7 +9,14 @@ import News from "./component/News/News";
 import Contact from "./component/Contact/Contact";
 import PrivacyPolicy from './component/PrivacyPolicy/PrivacyPolicy'
 import TermsOfService from './component/TermsOfService/TermsOfService'
+
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when the route changes
+  }, [location.pathname]);
+
   return (
     <>
       <Navbar />
