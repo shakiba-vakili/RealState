@@ -1,7 +1,12 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./Contact.css";
 import img from "../../assets/img13.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Contact = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -29,7 +34,7 @@ const Contact = () => {
 
   return (
     <section className="container contact section">
-      <form onSubmit={handleSubmit} className="form left flex-item">
+      <form data-aos="fade-up" onSubmit={handleSubmit} className="form left flex-item">
         <div className="div-input">
           <label htmlFor="name" className="label-input">
             Name:
@@ -88,11 +93,11 @@ const Contact = () => {
           />
         </div>
 
-        <button type="submit" className="btn">
+        <button type="submit" className="btn" data-aos="fade-up" data-aos-duration="4000">
           Submit
         </button>
       </form>
-      <div className="img right flex-item">
+      <div data-aos="fade-up" className="img right flex-item">
         <img src={img} alt="dubi" className="img" />
         <div className="secContent container">
           <div className="contactDiv flex">
