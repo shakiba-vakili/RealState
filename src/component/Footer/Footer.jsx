@@ -77,7 +77,7 @@ const Footer = () => {
               <CustomLink to="/">Home</CustomLink>
               <CustomLink to="/">Packages</CustomLink>
               <CustomLink to="/">Shop</CustomLink>
-              <CustomLink to="/">About</CustomLink>
+              <CustomLink to="/termsOfService">Terms Of Service</CustomLink>
               <CustomLink to="/privacyPolicy">Privacy Policy</CustomLink>
             </div>
             {/* <div
