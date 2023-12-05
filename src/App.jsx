@@ -7,6 +7,7 @@ import Footer from "./component/Footer/Footer";
 import News from "./component/News/News";
 import Contact from "./component/Contact/Contact";
 import PrivacyPolicy from './component/PrivacyPolicy/PrivacyPolicy'
+import TermsOfService from './component/TermsOfService/TermsOfService'
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="/termsOfService" element={<TermsOfService />} />
       </Routes>
       <Footer />
     </>
