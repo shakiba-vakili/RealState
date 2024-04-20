@@ -22,12 +22,14 @@ MDN Web Docs - CSS
 React Icons
 Enhance your UI with ease using React Icons, providing an array of popular icon packs as React components.
 
-React Icons Documentation
-Additional Resources
-LinkedIn: Connect with me on LinkedIn for collaborations: Shakiba Sadat Vakili
-Email: Reach out at shakibvakili@gmail.com for inquiries or collaboration opportunities.
-GitHub: Explore more projects and contributions on my GitHub: @shakiba-vakili
-Live Demo: Although it's currently frontend-only, check out the live demo at agorarealestates.com.
+
+## Additional Resources
+
+- **LinkedIn:** Let's connect for collaborations [Shakiba Sadat Vakili](https://www.linkedin.com/in/shakiba-vakili/) 
+- **Email:** Reach out to me at [shakibvakili@gmail.com](mailto:shakibvakili@gmail.com) for any inquiries or collaborations.
+- **GitHub:** Visit [@shakiba-vakili](https://github.com/shakiba-vakili) on GitHub for more projects and contributions.
+- 
+Live Demo: Although it's currently frontend-only, check out the live demo at [agorarealestates.com] ().
 
 <img src="./public/demo.png" alt="Website demo" title="Real State"  />
 
