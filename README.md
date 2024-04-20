@@ -2,25 +2,17 @@
 
 Welcome to the React Real Estate Project! This dynamic web application showcases modern web development techniques using React, Vite, Sass, and CSS. Elevating the visual experience, it integrates React Icons for enhanced UI elements.
 
-Technologies Utilized
-React
-A versatile JavaScript library for crafting dynamic user interfaces, fostering reusability and efficiency.
+## Technologies Utilized
 
-React Documentation
-Vite
-Empowering modern web development, Vite offers rapid build times and a seamless development experience with features like hot module replacement.
+### React :A versatile JavaScript library for crafting dynamic user interfaces, fostering reusability and efficiency.
 
-Vite Documentation
-Sass
-Sass, a preprocessor scripting language, enriches CSS with variables and nested rules, streamlining styling workflows.
+### Vite: Empowering modern web development, Vite offers rapid build times and a seamless development experience with features like hot module replacement.
 
-Sass Documentation
-CSS
-CSS, the cornerstone of web styling, ensures the presentation and formatting of HTML documents.
+### Sass : Sass, a preprocessor scripting language, enriches CSS with variables and nested rules, streamlining styling workflows.
 
-MDN Web Docs - CSS
-React Icons
-Enhance your UI with ease using React Icons, providing an array of popular icon packs as React components.
+### CSS: CSS, the cornerstone of web styling, ensures the presentation and formatting of HTML documents.
+
+### React Icon: Enhance your UI with ease using React Icons, providing an array of popular icon packs as React components.
 
 
 ## Additional Resources
